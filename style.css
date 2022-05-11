@@ -1,0 +1,71 @@
+
+body {
+  background-color: #C4DDFF ;
+}
+.card {
+  background-color: #0093AB;
+  color: #E1E5EA;
+  margin: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid #99C4C8;
+  border-radius: 25px;
+
+}
+
+h1 {
+  color: #C4DDFF;
+  font-family: 'Lora', serif;
+}
+
+a {
+  display: inline-block;
+  background-color: #CAF0F8 ;
+  padding: 10px;
+  border-radius: 5px;
+  color: #22577E;
+  text-decoration: none;
+  font-family:'Oleo Script Swash Caps', cursive ;
+
+}
+
+p {
+line-height: 20px;
+font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 150px;
+  border-radius: 30%;
+}
+ul {
+  display: flex;
+  justify-content: space-around ;
+}
+
+li {
+  display: inline-block;
+}
+h2 {
+  font-family: 'Lora', serif
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
