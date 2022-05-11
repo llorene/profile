@@ -5,12 +5,18 @@ body {
 .card {
   background-color: #0093AB;
   color: #E1E5EA;
-  margin: 100px;
   text-align: center;
   padding: 10px;
   border: 5px solid #99C4C8;
   border-radius: 25px;
 
+}
+.follow {
+  margin-top: 30px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
@@ -33,9 +39,11 @@ p {
 line-height: 20px;
 font-family: 'Roboto', sans-serif;
 }
+
 img {
+  object-fit: contain;
   width: 150px;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 ul {
   display: flex;
@@ -66,6 +74,15 @@ h2 {
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: 400px;
   }
+
+}
+
+@media (max-width: 300px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 100%;
+  }
+
 }
